@@ -1,0 +1,69 @@
+body, html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    background-color: grey;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    margin: 0 auto;
+    background-color: #1B1C30;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 30vw;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold; 
+   
+}
+.button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    gap: 10px;   
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;  
+}
+
+.top-row {
+    background-color: #FF6EC7;
+}
+
+.last-col {
+    background-color: #1ECBE1;
+}
+
+.num {
+    background-color: #FFDE00;
+}
+
+.zero-button {
+    width: 210px;
+}
